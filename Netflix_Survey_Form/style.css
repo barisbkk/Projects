@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+body {
+  background-image: url("./img/background_image.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.418);
+  max-width: 100%;
+  /* margin: 30px 40px 10px; */
+  height: 1000px;
+  color: whitesmoke;
+  padding-top: 8px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 30px;
+}
+
+span {
+  color: red;
+}
+
+.description {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.survey-form {
+  background-color: rgba(0, 0, 0, 0.705);
+  width: 28%;
+  height: 84%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.box {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+.box input {
+  margin-top: 10px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+select {
+  margin-top: 10px;
+  padding-left: 5px;
+  height: 40px;
+  width: 90%;
+}
+
+label {
+  margin-top: 20px;
+}
+
+.box1 h2 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.inputs {
+  text-align: left;
+}
+
+.inputs input {
+  margin-right: 10px;
+}
+
+.box1 {
+  font-size: 20px;
+  width: 80%;
+  margin-left: 24px;
+}
+.textarea h2 {
+  margin-left: 20px;
+  text-align: left;
+}
+textarea {
+  width: 90%;
+}
+.submit input {
+  width: 150px;
+  height: 50px;
+  background-color: gray;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  outline: none;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+.submit input:hover {
+  background-color: red;
+  transition: 0.3s;
+  font-weight: 900;
+}
